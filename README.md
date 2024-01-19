@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Associer à chaque phrase la ou les émotions qui semblent cohérentes, c'est-à-dire celles pour lesquelles prononcer la phrase avec cette émotion dans la voix semblerait plutôt naturel.
+**Associer à chaque phrase la ou les émotions qui semblent cohérentes**, c'est-à-dire celles pour lesquelles prononcer la phrase avec cette émotion dans la voix semblerait plutôt naturel.
 
 Pour chaque phrase, il s'agit en fait de répondre aux questions suivantes :
 - Est-ce qu'il semblerait naturel de dire cette phrase de manière effrayée ? 😱
@@ -26,12 +26,12 @@ Choisissez un emplacement de téléchargement sur votre ordinateur dans lequel e
 
 ### Extraction
 
-Rendez-vous à l'emplacement de téléchargement, puis décompressez le dossier .zip :
+Rendez-vous à l'emplacement de téléchargement, puis **décompressez le dossier .zip** :
 
-- sur MacOS : double-cliquez sur le dossier compressé depuis le Finder, le dossier décompressé apparaît à côté
-- sur Windows : clic-droit > Extraire tout... > Extraire, le dossier décompressé apparaît à côté
+- sur **MacOS** : double-cliquez sur le dossier compressé depuis le Finder, le dossier décompressé apparaît à côté
+- sur **Windows** : clic-droit > Extraire tout... > Extraire, le dossier décompressé apparaît à côté
 
-Double-cliquez sur le dossier décompressé pour l'ouvrir.
+**Double-cliquez sur le dossier décompressé** pour l'ouvrir.
 
 Le contenu du dossier est organisé de la sorte :
 ```
@@ -50,23 +50,23 @@ Le contenu du dossier est organisé de la sorte :
 
 Avant de poursuivre, vous devez effectuer une petite étape supplémentaire :
 
-- depuis le Finder, sélectionnez le dossier `MacOS`
+- Depuis le Finder, sélectionnez le dossier `MacOS`
 
-- utilisez le `Clic secondaire` (ou clic-droit) pour faire apparaître ce menu :
+- Utilisez le `Clic secondaire` (ou clic-droit) pour faire apparaître ce menu :
 <img src="https://eapi.pcloud.com/getpubthumb?code=XZjUDeZutbuweuPnmzNLafhCXsLA7USINmV&linkpassword=undefined&size=588x870&crop=0&type=auto" alt="Right click menu" width="300" height="auto">
 
-- en bas, cliquez sur `Nouveau terminal au dossier`
+- En bas, cliquez sur `Nouveau terminal au dossier`
 <img src="https://eapi.pcloud.com/getpubthumb?code=XZIGDeZDErJew4IswSRSsquOtwGHVNVWywV&linkpassword=undefined&size=984x744&crop=0&type=auto" alt="MacOS terminal" width="500" height="auto">
 
-- dans la fenêtre qui souvre, copiez (Cmd ⌘ + C) / **collez (Cmd ⌘ + V**) la commande suivante :
+- Dans la fenêtre qui souvre, copiez (Cmd ⌘ + C) / **collez (Cmd ⌘ + V**) la commande suivante :
 `sudo chmod u+x LAUNCH.command SETUP.command`
 
-- appuyez sur **Entrée ⏎**
+- Appuyez sur **Entrée ⏎**
 <img src="https://eapi.pcloud.com/getpubthumb?code=XZXvDeZtwBRE9hReXbDucGYqARB67KPfayk&linkpassword=undefined&size=984x742&crop=0&type=auto" alt="MacOS terminal" width="500" height="auto">
 
-- entrez le mot de passe de votre session et appuyez à nouveau sur **Entrée ⏎**
+- Entrez le mot de passe de votre session et appuyez à nouveau sur **Entrée ⏎**
 
-- vous pouvez fermer la fenêtre
+- Vous pouvez fermer la fenêtre
 
 #### Vous êtes prêt à labelliser !
 
@@ -76,11 +76,11 @@ Avant de poursuivre, vous devez effectuer une petite étape supplémentaire :
 ### Ouverture du dossier
 
 Selon votre système d'exploitation (MacOS ou Windows), ouvrez le dossier correspondant.
-Ce dernier devrait contenir un fichier SETUP et un fichier LAUNCH.
+Ce dernier devrait contenir un fichier `SETUP` et un fichier `LAUNCH`.
 
 ### Installation et lancement de Label Studio
 
-Lorsque vous commencez à labelliser un jeu de données pour la 1ère fois, lancez le fichier **SETUP** en faisant : **Clic-droit** (clic secondaire sur Mac) > **Ouvrir**.
+Lorsque vous commencez à labelliser un jeu de données pour la 1ère fois, **lancez le fichier** `SETUP` en faisant : **Clic-droit** (clic secondaire sur Mac) > **Ouvrir**.
 
 **⚠️ Sur MacOS :**
 Une popup s'ouvre :
@@ -94,7 +94,7 @@ Ce script installe tout ce qu'il faut pour vous permettre de labelliser simpleme
 
 ### Création de votre compte
 
-Lorsque vous utilisez Label Studio pour la 1ère fois, vous devrez créer un compte que vous réutiliserez par la suite.
+Lorsque vous utilisez Label Studio pour la 1ère fois, vous devrez **créer un compte** que vous réutiliserez par la suite.
 
 1. Dans l'onglet **SIGN UP**, entrez un email et un mot de passe.
 L'email peut être faux, du moment qu'il est valide (example@gmail.com).
@@ -168,7 +168,7 @@ Mais vous avez également la possibilité d'**utiliser votre clavier** pour gagn
 
 ### Enregistrement de votre progression
 
-Votre progression est enregistrée automatiquement dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
+Votre progression est enregistrée **automatiquement** dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
 
 #### Les instructions permettant de quitter Label Studio sont détaillées partie 5.
 
@@ -177,11 +177,11 @@ Votre progression est enregistrée automatiquement dans votre ordinateur, vous p
 ### Ouverture du dossier
 
 Selon votre système d'exploitation (MacOS ou Windows), ouvrez le dossier correspondant.
-Ce dernier devrait contenir un fichier SETUP et un fichier LAUNCH.
+Ce dernier devrait contenir un fichier `SETUP` et un fichier `LAUNCH`.
 
 ### Lancement de Label Studio
 
-Lancez le fichier **LAUNCH** en faisant : **Clic-droit** (clic secondaire sur Mac) > **Ouvrir**.
+**Lancez le fichier** `LAUNCH` en faisant : **Clic-droit** (clic secondaire sur Mac) > **Ouvrir**.
 
 **⚠️ Sur MacOS :**
 Une popup s'ouvre :
@@ -194,7 +194,7 @@ Ce dernier va charger Label Studio et ouvrir l'interface de labellisation.
 
 ### Connexion à votre compte
 
-Si la page de connexion s'affiche, connectez-vous à votre compte précédemment créé.
+Si la page de connexion s'affiche, **connectez-vous à votre compte** précédemment créé.
 
 1. Dans l'onglet **LOG IN**, entrez votre email et mot de passe précédemment configurés.
 2. Cliquez sur **LOG IN** pour vous connecter à votre compte et ouvrir l'interface de labellisation.
@@ -203,7 +203,7 @@ Si vous avez oublié vos identifiants, créez un nouveau compte avec un autre em
 
 ### Ouverture du projet
 
-Double-cliquez sur le nom du projet dans la page qui s'affiche pour accéder à votre projet de labellisation en cours.
+Double-cliquez sur le **nom du projet** dans la page qui s'affiche pour accéder à votre projet de labellisation en cours.
 
 ### Commencer à labelliser
 
@@ -224,7 +224,7 @@ Mais vous avez également la possibilité d'**utiliser votre clavier** pour gagn
 
 ### Enregistrement de votre progression
 
-Votre progression est enregistrée automatiquement dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
+Votre progression est enregistrée **automatiquement** dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
 
 #### Les instructions permettant de quitter Label Studio sont détaillées partie 5.
 
