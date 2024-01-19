@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+ABSOLUTE_PATH_TO_WORKING_FOLDER="$(pwd)"
+
+source venv/bin/activate
+
+export LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true
+export LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT="$ABSOLUTE_PATH_TO_WORKING_FOLDER"
+
+label-studio
