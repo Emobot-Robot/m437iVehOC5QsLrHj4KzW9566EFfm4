@@ -19,6 +19,7 @@ Lorsque qu'aucune des émotions ne semble pouvoir convenir, vous pourrez cocher 
 ### Téléchargement
 
 Pour ce faire, cliquez sur le bouton vert "<> Code" en haut de cette page, puis sur "Download ZIP" en bas de la popup.
+
 ![Github download](https://eapi.pcloud.com/getpubthumb?code=XZuPseZGnbNfeQ0JrHDnvxXwXm5BusrF53k&linkpassword=undefined&size=414x428&crop=0&type=auto)
 
 Choisissez un emplacement de téléchargement sur votre ordinateur dans lequel enregistrer ce fichier .zip.
@@ -83,7 +84,9 @@ Lorsque vous commencez à labelliser un jeu de données pour la 1ère fois, lanc
 
 **⚠️ Sur MacOS :**
 Une popup s'ouvre :
+
 <img src="https://eapi.pcloud.com/getpubthumb?code=XZ8iDeZ2Kti7nCEf14o0HJsySeNGbpPDEYk&linkpassword=undefined&size=610x698&crop=0&type=auto" alt="MacOS open" width="300" height="auto">
+
 Cliquez sur **Ouvrir** pour lancer le SETUP.
 
 Ensuite, **le SETUP s'exécute automatiquement** dans un fenêtre de terminal.
@@ -180,7 +183,9 @@ Lancez le fichier **LAUNCH** en faisant : **Clic-droit** (clic secondaire sur Ma
 
 **⚠️ Sur MacOS :**
 Une popup s'ouvre :
+
 <img src="https://eapi.pcloud.com/getpubthumb?code=XZ8iDeZ2Kti7nCEf14o0HJsySeNGbpPDEYk&linkpassword=undefined&size=610x698&crop=0&type=auto" alt="MacOS open" width="300" height="auto">
+
 Cliquez sur **Ouvrir** pour lancer LAUNCH.
 
 Ce dernier va charger Label Studio et ouvrir l'interface de labellisation.
