@@ -1,7 +1,8 @@
 #!/bin/bash
 
+ABSOLUTE_PATH_TO_WORKING_FOLDER="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-ABSOLUTE_PATH_TO_WORKING_FOLDER="$(pwd)"
+cd "$ABSOLUTE_PATH_TO_WORKING_FOLDER"
 
 source venv/bin/activate
 

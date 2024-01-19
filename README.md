@@ -103,16 +103,16 @@ L'email peut être faux, du moment qu'il est valide (example@gmail.com).
 
 ### Création d'un projet
 
-1. En haut à droite, cliquez sur **Create**.
-2. Entrez un nom pour ce projet de labellisation
-3. Cliquez sur **Save** pour créer le projet.
+1. Cliquez sur le bouton bleu **Create Project** au centre, ou sur le bouton bleu **Create** en haut à droite.
+2. Entrez un nom pour ce projet de labellisation dans **Project Name**.
+3. Cliquez sur **Save** en haut à droite pour créer le projet.
 
 ### Préparation de l'interface
 
 1. En haut à droite, cliquez sur **Settings**.
 2. Dans le menu à gauche, choisissez **Labeling Interface**.
 3. Assurez-vous d'être dans la vue **Code** (et non *Visual*).
-4. Remplacer le contenu du champ de texte par ceci :
+4. Effacez le contenu du champ de texte et remplacez-le par ceci :
 ```xml
 <View>
 <Header  name="sentence"  value="$text"/>
@@ -131,7 +131,7 @@ L'email peut être faux, du moment qu'il est valide (example@gmail.com).
 #### L'interface de prévisualisation à droite devrait maintenant ressembler à cela :
 ![Labeling interface](https://eapi.pcloud.com/getpubthumb?code=XZVKseZVfcDQeYuDzXfxwOK0TfbdfNsmgOV&linkpassword=undefined&size=775x311&crop=0&type=auto)
 
-5. Cliquez sur **Save** sous la zone de texte.
+5. Cliquez sur **Save** en bas à droite de la zone de texte.
 6. Vous pouvez maintenant retourner sur la page du projet en **cliquant sur le nom du projet** dans la barre du haut (`Projects / Project name`).
 
 
@@ -139,7 +139,7 @@ L'email peut être faux, du moment qu'il est valide (example@gmail.com).
 
 1. Cliquez sur le bouton bleu **Go to import** au centre, ou sur le bouton gris **Import** en haut à droite.
 
-2. Cliquez sur **Upload Files** en haut vers la gauche.
+2. Cliquez sur **Upload Files** en haut.
 
 3. Naviguez jusqu'au dossier précédemment téléchargé et extrait, puis dans le dossier **DATA** sélectionnez et ouvrez `sentences.csv`.
 
@@ -170,6 +170,8 @@ Mais vous avez également la possibilité d'**utiliser votre clavier** pour gagn
 
 Votre progression est enregistrée automatiquement dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
 
+#### Les instructions permettant de quitter Label Studio sont détaillées partie 5.
+
 ## 3 - Labelliser les données les fois suivantes
 
 ### Ouverture du dossier
@@ -192,10 +194,12 @@ Ce dernier va charger Label Studio et ouvrir l'interface de labellisation.
 
 ### Connexion à votre compte
 
-Connectez à votre compte précédemment créé.
+Si la page de connexion s'affiche, connectez-vous à votre compte précédemment créé.
 
 1. Dans l'onglet **LOG IN**, entrez votre email et mot de passe précédemment configurés.
 2. Cliquez sur **LOG IN** pour vous connecter à votre compte et ouvrir l'interface de labellisation.
+
+Si vous avez oublié vos identifiants, créez un nouveau compte avec un autre email dans l'onglet **SIGN UP** comme à l'étape 2. Vous aurez toujours accès aux données précedemment labelisées.
 
 ### Ouverture du projet
 
@@ -222,6 +226,8 @@ Mais vous avez également la possibilité d'**utiliser votre clavier** pour gagn
 
 Votre progression est enregistrée automatiquement dans votre ordinateur, vous pouvez donc quitter à tout moment (pour faire une pause par exemple) et continuer plus tard, la labellisation reprendra là où vous vous étiez arrêté.
 
+#### Les instructions permettant de quitter Label Studio sont détaillées partie 5.
+
 ## 4 - Exporter vos labels
 
 - Une fois que vous avez fini de labelliser toutes les phrases, revenez à la page d'accueil du projet et cliquez sur le bouton **Export** en haut à droite.
@@ -229,3 +235,18 @@ Votre progression est enregistrée automatiquement dans votre ordinateur, vous p
 - Sélectionnez le format `CSV` et cliquez sur le bouton **Export** en bas à droite.
 
 - **Enregistrez le fichier .csv** à l'emplacement souhaité sur votre ordinateur et envoyez-le par courrier électronique.
+
+
+## 5 - Quitter Label Studio
+
+Pour quitter Label Studio, **commencez par fermer l'onglet de navigateur** dans lequel Label Studio s'est ouvert. Ensuite :
+
+- sur **MacOS** : 
+	- localisez dans votre Dock l'icône de Terminal <img src="https://eapi.pcloud.com/getpubthumb?code=XZNz1eZlwyafjzm34Qquc26R6izl82B7xS7&linkpassword=undefined&size=112x116&crop=0&type=auto" alt="MacOS open" width="36" height="auto">
+	- fermez la fenêtre de Terminal en cliquant sur le rond rouge en haut à gauche puis sur **Terminer**
+	<img src="https://eapi.pcloud.com/getpubthumb?code=XZYL1eZ0HauGPQXLObzJLBqm9d4DSooLvjk&linkpassword=undefined&size=984x746&crop=0&type=auto" alt="MacOS open" width="360" height="auto">
+
+- sur **Windows** : 
+	- localisez dans votre barre des tâches l'icône de Terminal <img src="https://eapi.pcloud.com/getpubthumb?code=XZgL1eZwDiVkwijKfzXWkQLwj1xpRn7YA2V&linkpassword=undefined&size=50x40&crop=0&type=auto" alt="MacOS open" width="36" height="auto">
+	- fermez la fenêtre de Terminal en cliquant sur la croix rouge en haut à droite
+	<img src="https://eapi.pcloud.com/getpubthumb?code=XZxL1eZL2FcxwGNmVYR4LJEWIb5t7iQRXlk&linkpassword=undefined&size=999x518&crop=0&type=auto" alt="MacOS open" width="520" height="auto">
