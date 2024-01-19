@@ -199,7 +199,7 @@ Si la page de connexion s'affiche, **connectez-vous à votre compte** précédem
 1. Dans l'onglet **LOG IN**, entrez votre email et mot de passe précédemment configurés.
 2. Cliquez sur **LOG IN** pour vous connecter à votre compte et ouvrir l'interface de labellisation.
 
-Si vous avez oublié vos identifiants, créez un nouveau compte avec un autre email dans l'onglet **SIGN UP** comme à l'étape 2. Vous aurez toujours accès aux données précedemment labelisées.
+Si vous avez oublié vos identifiants, créez un nouveau compte avec un autre email dans l'onglet **SIGN UP** comme à l'étape 2. Vous aurez toujours accès aux données précedemment labellisées.
 
 ### Ouverture du projet
 
