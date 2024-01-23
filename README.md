@@ -116,21 +116,21 @@ L'email peut être faux, du moment qu'il est valide (example@gmail.com).
 ```xml
 <View>
   <View style="font-size: 2em; font-weight: 500; display: flex; flex-direction: column; align-items: center; margin-top: 1em; overflow: hidden;">
-  	<View style="overflow: hidden;">
-  	  <Text name="text" value="$text"/>
+    <View style="overflow: hidden;">
+      <Text name="text" value="$text"/>
     </View>
   </View>
   <View style="padding: 1em; margin-top: 2em;">
     <View style="font-size: 1.4em;">
-  	  <Text name="instruction" value="Emotions possiblement associées :"/>
+      <Text name="instruction" value="Emotions possiblement associées :"/>
     </View>
     <Choices name="sentiment" toName="text" choice="multiple" showInLine="true">
-		<Choice  value="Effrayé 😱"  style="zoom: 1.5;"  hotkey="1"/>
-		<Choice  value="Heureux 😊"  style="zoom: 1.5;"  hotkey="2"/>
-		<Choice  value="Triste 😢"  style="zoom: 1.5;"  hotkey="3"/>
-		<Choice  value="Énervé 😠"  style="zoom: 1.5;"  hotkey="4"/>
-		<Choice  value="Surpris 😮"  style="zoom: 1.5;"  hotkey="5"/>
-		<Choice  value="Aucune 🤷"  style="zoom: 1.5;"  hotkey="6"/>
+      <Choice  value="Effrayé 😱"  style="zoom: 1.5;"  hotkey="1"/>
+      <Choice  value="Heureux 😊"  style="zoom: 1.5;"  hotkey="2"/>
+      <Choice  value="Triste 😢"  style="zoom: 1.5;"  hotkey="3"/>
+      <Choice  value="Énervé 😠"  style="zoom: 1.5;"  hotkey="4"/>
+      <Choice  value="Surpris 😮"  style="zoom: 1.5;"  hotkey="5"/>
+      <Choice  value="Aucune 🤷"  style="zoom: 1.5;"  hotkey="6"/>
     </Choices>
   </View>
 </View>
